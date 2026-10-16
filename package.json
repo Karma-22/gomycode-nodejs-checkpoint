@@ -1,0 +1,21 @@
+{
+  "name": "gomycode-nodejs-checkpoint",
+  "version": "1.0.0",
+  "description": "GoMyCode Bootcamp - Node.js Checkpoint (hello-world, HTTP server, file system, password-generator, nodemailer)",
+  "author": "Karma-22 (Darius Ange)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "step1": "node hello-world.js",
+    "step2": "node server.js",
+    "step3": "node file-system.js",
+    "step4": "node password-generator.js",
+    "step5": "node email-sender.js",
+    "test": "node --test tests/nodejs.test.js"
+  },
+  "dependencies": {
+    "generate-password": "^1.7.1",
+    "nodemailer": "^6.9.15"
+  }
+}
